@@ -1,0 +1,71 @@
+.banner{
+    background-color: #000000;
+    display: inline-block;
+    position: relative;
+    height: 900px;
+}
+
+.banner img{
+    opacity: 0.5;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 900px;
+}
+
+.banner .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 35%; /* Adjust this value to move the positioned div up and down */
+    background: rgba(0, 0, 0, 0);
+    font-family: Arial,sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.text h1{
+    font-size: 2.5em;
+    margin-bottom: 50px;
+}
+
+.text p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.button1{
+    width: 230px;
+    margin-top: 60px;
+    margin-left: 50px;
+    height: 48px;
+    background-color: rgba(255, 0, 0, 0.671);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+}
+.button2{
+    width: 230px;
+    margin-top: 60px;
+    margin-left: 50px;
+    height: 48px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+}
+.button2:hover{
+    background-color: rgba(255, 0, 0, 0.671)
+}
